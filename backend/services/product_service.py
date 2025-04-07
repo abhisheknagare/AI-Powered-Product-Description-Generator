@@ -29,18 +29,3 @@ def generate_single_content(product_data, content_type, platform=None):
     
     generator = content_generators.get(content_type)
     return generator() if generator else "Invalid content type."
-# def generate_single_content(product_data, content_type, platform=None):
-#     if content_type == "product_description":
-#         return llm_service.generate_product_description(product_data)
-#     elif content_type == "seo":
-#         return llm_service.generate_seo_elements(product_data)
-#     elif content_type == "marketing":
-#         return llm_service.generate_marketing_copy(product_data, platform)
-#     elif content_type == "missing_fields":
-#         return llm_service.generate_missing_fields(product_data)
-#     elif content_type == "image_description":
-#         return llm_service.generate_image_description(product_data)
-#     elif content_type == "dalle_prompt":
-#         return llm_service.generate_dalle_prompt(product_data)
-#     else:
-#         return "Invalid content type."
