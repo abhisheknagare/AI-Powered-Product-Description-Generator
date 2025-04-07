@@ -1,4 +1,3 @@
-# i95dev AI Engineering Intern - Take-Home Assignment
 ## AI-Powered Product Description Generator
 
 ### Overview
@@ -229,4 +228,4 @@ Your submission will be evaluated based on:
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [SEO Best Practices for Product Descriptions](https://www.shopify.com/blog/seo-product-descriptions)
 
-We're excited to see your implementation and approach! Good luck!
+
