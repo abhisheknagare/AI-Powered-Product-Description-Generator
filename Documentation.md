@@ -389,4 +389,4 @@ const BASE_URL = "http://localhost:5000"; // Update if deployed
 
 ---
 
-This documentation provides a comprehensive overview of the AI-Powered Product Description Generator project. For further assistance or to report issues, please contact the project maintainer.
+This documentation provides a comprehensive overview of the AI-Powered Product Description Generator project. 
