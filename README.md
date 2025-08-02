@@ -2,9 +2,9 @@
 
 ### Overview
 
-Welcome to the i95dev AI Engineering Intern take-home assignment! This project is designed to evaluate your skills in working with LLMs, prompt engineering, and full-stack development in an eCommerce context.
+This project is designed to evaluate my skills in working with LLMs, prompt engineering, and full-stack development in an eCommerce context.
 
-Your task is to build a product description generator that leverages LLMs to create compelling, SEO-optimized product descriptions and marketing copy based on basic product information. The system should also be able to generate missing product fields and product images using all available product data.
+The task is to build a product description generator that leverages LLMs to create compelling, SEO-optimized product descriptions and marketing copy based on basic product information. The system should also be able to generate missing product fields and product images using all available product data.
 
 ### Project Requirements
 
@@ -110,35 +110,35 @@ We've provided a sample product dataset (`sample_products.json`) that contains 1
 }
 ```
 
-Note that some fields are intentionally left empty in many products. Your system should be able to generate content for these empty fields.
+Note that some fields are intentionally left empty in many products. My system is be able to generate content for these empty fields.
 
 ### Key Implementation Guidelines
 
 #### LLM Integration
-- You should use OpenAI's API (GPT-3.5-turbo is sufficient) or another LLM API of your choice
-- Implement proper error handling for API calls
-- Use appropriate context windows and token limits
+- Used OpenAI's API (GPT-3.5-turbo is sufficient) or another LLM API of your choice
+- Implemented proper error handling for API calls
+- Used appropriate context windows and token limits
 
 #### Prompt Engineering
-- Design prompts that effectively utilize product attributes to generate compelling content
-- Create different prompt templates for different content types
-- Implement strategies for maintaining brand voice and style consistency
-- Ensure generated content is SEO-friendly for relevant fields
-- Craft effective prompts for generating realistic product images that match product attributes
+- Designed prompts that effectively utilize product attributes to generate compelling content
+- Created different prompt templates for different content types
+- Implemented strategies for maintaining brand voice and style consistency
+- Ensured generated content is SEO-friendly for relevant fields
+- Crafted effective prompts for generating realistic product images that match product attributes
 
 #### API Design
-- Create RESTful endpoints with proper request/response formats
-- Implement appropriate error handling
-- Consider performance and optimization for potentially large requests
+- Created RESTful endpoints with proper request/response formats
+- Implemented appropriate error handling
+- Considered performance and optimization for potentially large requests
 
 #### React Frontend
-- Focus on clean, functional UI rather than elaborate designs
-- Implement responsive components that adapt to different screen sizes
-- Use React state management appropriately (useState, useContext, etc.)
+- Focused on clean, functional UI rather than elaborate designs
+- Implemented responsive components that adapt to different screen sizes
+- Used React state management appropriately (useState, useContext, etc.)
 
 ### Stretch Goals (Optional)
 
-If you complete the core requirements and want to demonstrate additional skills, consider implementing one or more of these stretch goals:
+Demonstrating additional skills, implementing one or more of these stretch goals:
 
 1. Add A/B testing capabilities for different content styles
 2. Implement a ratings system to provide feedback on generated content
@@ -146,9 +146,9 @@ If you complete the core requirements and want to demonstrate additional skills,
 4. Add a multilingual option to generate content in different languages
 5. Implement image generation suggestions based on product data (text prompts for image generation)
 
-### Evaluation Criteria
+### Project Performance
 
-Your submission will be evaluated based on:
+Project performance based on:
 
 1. **Prompt Engineering Quality (30%)**
    - Quality of generated content across different types
@@ -173,27 +173,6 @@ Your submission will be evaluated based on:
    - Proper use of version control (commit messages, organization)
    - Error handling and edge cases
 
-### Submission Guidelines
-
-1. **GitHub Repository**
-   - Create a **public** GitHub repository with your implementation
-   - Ensure your repository includes:
-     - Complete source code for both frontend and backend
-     - A comprehensive README with setup instructions
-     - Documentation of your approach, especially for prompt engineering
-
-2. **Deployment (Optional)**
-   - If possible, deploy your application (e.g., Vercel, Netlify, Heroku)
-   - Include the deployed URL in your README
-
-3. **Submission Timeline**
-   - Complete the assignment within 7 days of receiving it
-   - Submit by **replying to the original assessment email** with:
-     - GitHub repository link
-     - Brief overview of your approach (1-2 paragraphs)
-     - Any challenges you faced and how you overcame them
-     - Time spent on the assignment
-
 ### Setup Instructions
 
 #### Backend Setup
@@ -211,15 +190,7 @@ Your submission will be evaluated based on:
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 4. The application should open at `http://localhost:3000`
-
-### Notes and Tips
-
-- **API Keys**: Never commit your API keys to GitHub. Use environment variables.
-- **Time Management**: Focus on core functionality first, then enhance if time permits.
-- **Documentation**: Document your approach, especially your prompt engineering strategy.
-- **Code Quality**: Clean, well-organized code is more important than feature quantity.
-- **Questions**: If you have questions, email recruiting@i95dev.com with "Question: AI Intern Take-Home" as the subject.
-
+  
 ### Resources
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
